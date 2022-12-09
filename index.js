@@ -43,7 +43,7 @@ class PDFMerger {
   }
 
   async _getInputAsBuffer (input) {
-    if (input instanceof Buffer || input instanceof ArrayBuffer) {
+    if (input instanceof Buffer || input instanceof ArrayBuffer || input instanceof Uint8Array) {
       return input
     }
     return await fs.readFile(input)

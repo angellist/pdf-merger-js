@@ -1,5 +1,5 @@
 {
-  "name": "pdf-merger-js",
+  "name": "angellist/pdf-merger-js",
   "version": "4.1.2",
   "description": "merge multible PDF documents, or parts of them, to a new PDF document",
   "main": "./index.js",
@@ -17,12 +17,12 @@
       "browser"
     ]
   },
-  "repository": "github:nbesli/pdf-merger-js",
+  "repository": "github:angellist/pdf-merger-js",
   "keywords": [
     "pdf",
     "merge"
   ],
-  "author": "nbesli",
+  "author": "angellist",
   "license": "MIT",
   "dependencies": {
     "pdf-lib": "^1.17.1"
